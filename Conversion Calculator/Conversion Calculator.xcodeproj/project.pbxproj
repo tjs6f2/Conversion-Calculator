@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		60050C27207E8C9400EE524E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60050C26207E8C9400EE524E /* AppDelegate.swift */; };
-		60050C29207E8C9400EE524E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60050C28207E8C9400EE524E /* ViewController.swift */; };
 		60050C2C207E8C9400EE524E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60050C2A207E8C9400EE524E /* Main.storyboard */; };
 		60050C2E207E8C9500EE524E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60050C2D207E8C9500EE524E /* Assets.xcassets */; };
 		60050C31207E8C9500EE524E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60050C2F207E8C9500EE524E /* LaunchScreen.storyboard */; };
+		60050C3B207E992E00EE524E /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60050C3A207E992E00EE524E /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60050C23207E8C9400EE524E /* Conversion Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversion Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60050C26207E8C9400EE524E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60050C28207E8C9400EE524E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60050C2B207E8C9400EE524E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60050C2D207E8C9500EE524E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60050C30207E8C9500EE524E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60050C32207E8C9500EE524E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60050C3A207E992E00EE524E /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				60050C26207E8C9400EE524E /* AppDelegate.swift */,
-				60050C28207E8C9400EE524E /* ViewController.swift */,
 				60050C2A207E8C9400EE524E /* Main.storyboard */,
 				60050C2D207E8C9500EE524E /* Assets.xcassets */,
 				60050C2F207E8C9500EE524E /* LaunchScreen.storyboard */,
 				60050C32207E8C9500EE524E /* Info.plist */,
+				60050C3A207E992E00EE524E /* ConverterViewController.swift */,
 			);
 			path = "Conversion Calculator";
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60050C29207E8C9400EE524E /* ViewController.swift in Sources */,
 				60050C27207E8C9400EE524E /* AppDelegate.swift in Sources */,
+				60050C3B207E992E00EE524E /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
